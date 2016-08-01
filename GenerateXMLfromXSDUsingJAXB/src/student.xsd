@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="students" type="Students" />
+	<xs:complexType name="Students">
+		<xs:sequence>
+			<xs:element name="student" type="Student" maxOccurs="unbounded"/>			
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Student">
+		<xs:sequence>
+			<xs:element name="sid" type="xs:int" />
+			<xs:element name="fistName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+			<xs:element name="email" type="xs:string" />
+			<xs:element name="address" type="Address" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Address">
+		<xs:sequence>
+			<xs:element name="state" type="xs:string" />
+			<xs:element name="city" type="xs:string" />
+			<xs:element name="area" type="xs:string" />
+			<xs:element name="pin" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

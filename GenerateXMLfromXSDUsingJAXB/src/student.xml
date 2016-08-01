@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <sid>101</sid>
+        <fistName>Rakesh</fistName>
+        <lastName>Ray</lastName>
+        <email>rakesh@javadev.com</email>
+        <address>
+            <state>Karnatka</state>
+            <city>BLR</city>
+            <area>BTM</area>
+            <pin>560068</pin>
+        </address>
+    </student>
+    <student>
+        <sid>102</sid>
+        <fistName>Sukesh</fistName>
+        <lastName>Kumar</lastName>
+        <email>sukesh@javadev.com</email>
+        <address>
+            <state>Karnatka</state>
+            <city>BLR</city>
+            <area>BTM</area>
+            <pin>560068</pin>
+        </address>
+    </student>
+</students>
